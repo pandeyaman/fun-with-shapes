@@ -1,7 +1,7 @@
 const angleOne = document.getElementById("triangle-angle-1");
 const angleTwo = document.getElementById("triangle-angle-2");
 const angleThree = document.getElementById("triangle-angle-3");
-const btnSubmit = document.querySelector(".btn-submit");
+const btnSubmit = document.querySelector(".btn-triangle-submit");
 const myForm = document.getElementById("myForm");
 const remark = document.querySelector(".span-triangle-remark");
 

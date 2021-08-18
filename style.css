@@ -4,7 +4,11 @@
     background-color: #2C2E43;
     color: #FF7600;
     font-family: 'Nanum Gothic', sans-serif;
-    font-size: 16px;
+    /* font-size: 16px; */
+}
+
+body{
+    width: 100%;
 }
 
 .container{
@@ -73,6 +77,48 @@ h2{
 
 
 
+.h1-circle{
+    font-size: 3.5rem;
+    margin: 4rem auto;
+}
+
+.btn-circle-calculate{
+    margin: 2rem;
+    padding: .5rem 1rem;
+    font-size: 1.1rem;
+    border: 1px solid #FF7600;
+}
+
+.btn-circle-calculate:hover{
+    box-shadow: rgb(255, 119, 0) 0px 3px 8px;
+}
+
+.btn-circle-calculate:active{
+    box-shadow: rgb(255, 119, 0) 0px 1px 1px 0px;
+}
+
+.span-remark-area, .span-remark-circumference{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .div-card a{
@@ -114,7 +160,6 @@ h2{
     padding: 1rem;
     margin: 1rem 0rem;
     border: 2px solid #FF7600;
-    word-wrap: normal;
 }
 
 input[type="radio"]{
@@ -125,6 +170,13 @@ input[type="radio"]{
     margin: .5rem 1.5rem;
     font-size: 1.2rem;
 }
+
+.span-quiz-score{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
 
 .btn-quiz-submit{
     font-size: 1.5rem;
@@ -137,7 +189,7 @@ input[type="radio"]{
 }
 
 .btn-quiz-submit:active{
-    box-shadow: rgb(255, 119, 0) 0px 2px 2px 0px;
+    box-shadow: rgb(255, 119, 0) 0px 1px 1px 0px;
 }
 
 
@@ -162,4 +214,13 @@ input[type="radio"]{
     padding: .5rem 1rem;
     margin: 0 auto;
     width: fit-content;
+}
+
+.btn-triangle-submit{
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+}
+
+.span-triangle-remark{
+    font-size: 1.5rem;
 }
