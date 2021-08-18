@@ -11,7 +11,7 @@ const calculate = (radius) =>{
         let area = radius * radius * Math.PI;
         let perimeter = 2*Math.PI*radius;
         remarkArea.textContent = "Area: "+Math.round(area*100)/100;
-        remarkCircumference.textContent = "Perimeter: "+ Math.round(perimeter*100)/100;
+        remarkCircumference.textContent = "Circumference: "+ Math.round(perimeter*100)/100;
     }
         
     
