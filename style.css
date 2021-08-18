@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #2C2E43;
+    color: #FF7600;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+}
+
+.container{
+    width: 60%;
+    margin: 4rem auto;
+    text-align: center;
+}
+
+.btn-back{
+    text-decoration: none;
+    display: flex;
+    border:1px solid #FF7600;
+    padding: .5rem 1rem;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+
+h1{
+    font-size: 4rem;
+    margin:1rem 0;
+}
+
+
+
+
+.h1-quad{
+    margin: 2rem auto 0rem auto;
+}
+
+.h3-quad{
+    width: 80%;
+    font-weight: 500;
+    margin: 2.5rem auto;
+}
+
+h2{
+    margin: 2rem auto;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+
+.div-quad-input label,input[type="number"]{
+    margin: .5rem 1rem;
+    font-size: 1.4rem;
+    width: 30%;
+    text-align: center;
+    outline: none;
+}
+
+.btn-check{
+    margin: 1rem;
+    width: 10%;
+    padding: .5rem 1rem;
+}
+
+.p-remark{
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+.div-card a{
+    text-decoration: none;
+}
+
+.option-card{
+    display: inline-block;
+    width: 180px;
+    margin: 2rem 1rem;
+    padding: 2rem 3rem;
+    border: 3px solid #FF7600;
+    font-size: 1.1rem;
+}
+
+.option-card:hover{
+    box-shadow: rgba(160, 130, 104, 0.5) 0px 7px 29px 0px;
+    transition: .3s;
+}
+
+.h1-heading{
+    font-size: 4rem;
+}
+
+
+
+
+
+
+
+
+
+.label-question{
+    display: block;
+    padding: 0rem 1rem 1rem 1rem;
+}
+
+.div-question-card{
+    padding: 1rem;
+    margin: 1rem 0rem;
+    border: 2px solid #FF7600;
+    word-wrap: normal;
+}
+
+input[type="radio"]{
+    vertical-align: middle;
+}
+
+.div-question-card label{
+    margin: .5rem 1.5rem;
+    font-size: 1.2rem;
+}
+
+.btn-quiz-submit{
+    font-size: 1.5rem;
+    padding: .8rem 1.5rem;
+    border: 1px solid #FF7600;
+}
+
+.btn-quiz-submit:hover{
+    box-shadow: rgb(255, 119, 0) 0px 3px 8px;
+}
+
+.btn-quiz-submit:active{
+    box-shadow: rgb(255, 119, 0) 0px 2px 2px 0px;
+}
+
+
+
+
+
+
+
+.div-triangle-angle{
+    margin: 2rem;
+}
+
+
+.div-triangle-angle label{
+    margin: 2rem;
+    display: block;
+}
+
+.p-triangle-note{
+    border: 2px solid #FF7600;
+    border-radius: 20px;
+    padding: .5rem 1rem;
+    margin: 0 auto;
+    width: fit-content;
+}

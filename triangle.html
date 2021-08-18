@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+        <title>Triangle</title>
+    </head>
+    <body>
+        <div class="container">
+            <a href="/index.html" class="btn-back">BACK</a>
+            <h1>TYPES OF TRIANGLE</h1>
+            <h3>Enter the 3 angles of the triangle to know what type of triangle is it.</h3>
+            <form action="#" id="myForm">
+                <div class="div-triangle-angle">
+                    <label for="triangle-angle-1">
+                        Angle 1 :
+                        <input type="number" min=1 name="triangle-angle-1" id="triangle-angle-1" required>
+                    </label>
+                    <label for="triangle-angle-2">
+                        Angle 2 :
+                        <input type="number" min=1 name="triangle-angle-2" id="triangle-angle-2" required>
+                    </label>
+                    <label for="triangle-angle-3">
+                        Angle 3 :
+                        <input type="number" min=1 name="triangle-angle-3" id="triangle-angle-3" required>
+                    </label>
+                </div>
+                <p class="p-triangle-note"><b>NOTE: </b> The sum of your angles should be = 180 Degree.</p>
+                <button type="submit" class="btn-submit">SUBMIT</button>
+            </form>
+            <span class="span-triangle-remark"></span>
+        </div>
+        <script src="/triangle.js"></script>
+    </body>
+</html>
